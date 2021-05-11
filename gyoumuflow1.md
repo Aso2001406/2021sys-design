@@ -1,5 +1,5 @@
 ```uml
-@startuml
+@startum
 ユーザー -> webサーバー : 商品検索
 webサーバー -> DBサーバー : 検索処理
 DBサーバー ->   DBサーバー : 検索処理
