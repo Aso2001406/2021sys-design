@@ -2,6 +2,7 @@
 @startuml
 
 !define MASTER_MARK_COLOR Orange
+!define TRANSACTION_MARK_COLOR
 
 package "ECサイト" as target_system{
   entity "顧客マスタ" as customer <m_customers> <<M,MASTER_MARK_COLOR>> {
@@ -21,6 +22,14 @@ package "ECサイト" as target_system{
     --
     name
     reg_class
+  }
+  
+  entity "購入テーブル" as table <d_purchase> <<T,TRANSACTION_MARK_COLOR>> {
+    + order_id[PK]
+    --
+    customer_code
+    purchase_date
+    total_price
   }
 }
 
