@@ -2,7 +2,7 @@
 @startuml
 
 package "ECサイト" as target_system{
-  entity "顧客マスタ" as customer <m_customers>{
+  entity "顧客マスタ" as customer <m_customers> <<M,MASTER_MARK_COLOR>> {
     + customer_code [PK]
     --
     pass
