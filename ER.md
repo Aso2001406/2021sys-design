@@ -28,6 +28,7 @@ package "ECサイト" as target_system{
     + order_id [PK]
     --
     customer_code
+    purchase_date
   }
 }
 
