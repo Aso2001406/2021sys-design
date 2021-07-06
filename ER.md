@@ -52,7 +52,6 @@ package "ECサイト" as target_system{
    image
    detail
    del_flag
-   reg_date
   }
 }
 
