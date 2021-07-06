@@ -3,7 +3,7 @@
 [ER図はこちら](https://github.com/Aso2001406/2021sys-design/blob/main/ER.md "ER図はこちら")
 
 ## DBテーブルカラム詳細一覧
-#　データベース詳細
+# データベース詳細
 
 
 
