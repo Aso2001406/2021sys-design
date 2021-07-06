@@ -37,9 +37,21 @@ package "ECサイト" as target_system{
   }
   
   entity "カテゴリマスタ" as category <m_category> <<M,MASTER_MARK_COLOR>> {
-   +category_id [PK]
+   + category_id [PK]
    --
    name
+   reg_date
+  }
+  
+  m_items "商品マスタ" as item <m_items> <<M,MASTER_MARK_COLOR>> {
+   + item_code [PK]
+   --
+   item_name
+   price
+   category_id
+   image
+   detail
+   del_flag
    reg_date
   }
 }
