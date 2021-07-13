@@ -1,5 +1,5 @@
 ```startuml
-@stratuml
+@startuml
 
 !define MASTER_MARK_COLOR Orange
 !define TRANSACTION_MARK_COLOR DeepSkyBlue
