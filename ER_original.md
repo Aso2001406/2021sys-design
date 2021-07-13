@@ -55,7 +55,7 @@ package "ECサイト" as target_system{
  
  purchase -ri- purchase_detail
  category -ri- items
- purchase }--{ customers
+ purchase }-ri-{ customers
 }
 
 @enduml
