@@ -22,6 +22,21 @@ package "ECサイト" as target_system{
   price
   num
  }
+ 
+ entity "顧客マスタ" as customers <m_customers> <<<MASTER_MARK_COLOR>> {
+  + customer_code [PK]
+  + pass [PK]
+  --
+  name
+  address
+  mail
+  del_flag
+  reg_date
+ }
+ 
+ entity "カテゴリマスタ" as category <m_category> <<MASTER_MARK_COLOR>> {
+  
+ }
 }
 
 @enduml
