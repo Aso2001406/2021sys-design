@@ -53,7 +53,7 @@ package "ECサイト" as target_system{
   reg_date
  }
  
- purchase -ri- purchase_detail
+ purchase -- purchase_detail
  category -ri- items
  purchase }-ri-{ customers
 }
