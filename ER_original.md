@@ -53,7 +53,7 @@ package "ECサイト" as target_system{
   reg_date
  }
  
- purchase |o-ri-o{ purchase_detail
+ purchase --- purchase_detail
 }
 
 @enduml
