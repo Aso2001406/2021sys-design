@@ -40,6 +40,18 @@ package "ECサイト" as target_system{
   name
   reg_date
  }
+ 
+ entity "商品" as items <m_items> <<M,MASTER_MARK_COLOR>> {
+  + item_code
+  --
+  item_name
+  price
+  category_id
+  image
+  detail
+  del_flag
+  reg_date
+ }
 }
 
 @enduml
